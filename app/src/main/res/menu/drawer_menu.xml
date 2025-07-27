@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_item"
+            android:icon="@drawable/ic_fragment_add_24"
+            android:title="My items"/>
+        <item
+            android:id="@+id/nav_search_bookmark"
+            android:icon="@drawable/ic_fragment_bookmark_24"
+            android:title="Bookmarks"/>
+    </group>
+    <item
+        android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/nav_search_item"
+                android:icon="@drawable/ic_fragment_search_24"
+                android:title="Search items"/>
+            <item
+                android:id="@+id/nav_redeem_item"
+                android:icon="@drawable/ic_fragment_redeem_24"
+                android:title="Redeem item"/>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_fragment_logout_24"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666601761250",
+    "project_id": "yourtrashmytreasure-19936",
+    "storage_bucket": "yourtrashmytreasure-19936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666601761250:android:371bdb174e02341e54b1bb",
+        "android_client_info": {
+          "package_name": "com.twj.yourtrashmytreasure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666601761250-1r1e4no735tep39l5fbbrn2e7bo1qa1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twj.yourtrashmytreasure",
+            "certificate_hash": "46bc4b89e07b2d72dbf10d13ae2484fcad3afba1"
+          }
+        },
+        {
+          "client_id": "666601761250-htgjmat0ge1vo4i667m2gsa7v6dqh0j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Sl9IYSOX0y4QopDZEFGOTocfrUmnSXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666601761250-htgjmat0ge1vo4i667m2gsa7v6dqh0j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

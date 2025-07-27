@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5271ff"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher_final_foreground"/>
+    <TextView
+        android:id="@+id/famous_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_logo"
+        android:fontFamily="serif-monospace"
+        android:text="Who knows?\nYour Trash might be someone else's Treasure..."/>
+    <Button
+        android:background="@drawable/gradient_label"
+        android:id="@+id/btn_google_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Sign In With Google"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/famous_quote"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

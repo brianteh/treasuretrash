@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/label_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name:"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:background="@drawable/gradient_label"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/item_image"/>
+        <TextView
+            android:id="@+id/text_item_name"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/item_image"
+            android:layout_below="@+id/label_item_name"/>
+        <TextView
+            android:id="@+id/label_item_category"
+            android:background="@drawable/gradient_label"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Category:"
+            android:padding="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/text_item_name"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/item_image"/>
+        <TextView
+            android:id="@+id/text_item_category"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/item_image"
+            android:layout_below="@+id/label_item_category"/>
+        <TextView
+            android:id="@+id/label_item_used_status"
+            android:background="@drawable/gradient_label"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usage Status:"
+            android:padding="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/text_item_category"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/item_image"
+            />
+        <TextView
+            android:id="@+id/text_item_used_status"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/item_image"
+            android:layout_below="@id/label_item_used_status"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_bookmark_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_bookmark_border_24"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

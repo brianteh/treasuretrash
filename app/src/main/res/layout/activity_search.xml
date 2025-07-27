@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SearchActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/item_search_box"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/item_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+        <Spinner
+            android:id="@+id/spinner_item_used_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            android:layout_centerVertical="true"
+            />
+        <Spinner
+            android:id="@+id/spinner_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            android:layout_toRightOf="@+id/spinner_item_used_status"/>
+        <Button
+            android:id="@+id/btn_search_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_fragment_search_24"
+            android:layout_toRightOf="@+id/spinner_item_category"/>
+    </RelativeLayout>
+</RelativeLayout>

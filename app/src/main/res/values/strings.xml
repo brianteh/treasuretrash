@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TreasureTrash</string>
+    <string name="navigation_drawer_open">Nav Opened</string>
+    <string name="navigation_drawer_close">Nav Closed</string>
+</resources>
